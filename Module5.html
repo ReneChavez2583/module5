@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br><br>
+    <form method="post" action="process.php">
+        <input type="text" name="query"><br>
+
+        <input type="checkbox" name="pet1" value="dog">I have a dog<br>
+        <input type="checkbox" name="pet2" value="cat" checked>I have a cat<br>
+        <br>
+        What is your favorite flavor of icecream?<br>
+        <Input type="radio" name="flavor" value="chocolate">Chocolate<br>
+        <input type="radio" name="flavor" value="vanilla">Vanilla<br>
+        <input type="radio" name="other" value="other">Other<br>
+
+        <br><br>
+        What is your favorite number?<br>
+        <input type="radio" name="favNum" value="1" checked>1<br>
+        <input type="radio" name="favNum" value="2">2<br>
+        <input type="radio" name="favNum" value="3">3<br><br>
+
+        <input type="email" name="myEmail"><br><br>
+
+        <input type="number" name="quantity" min="-5" max="10"><br>
+        <input type="number" name="quantity2" min="100" max="200"><br>
+        <br><br>
+
+        <select name="carlist">
+            <option value="accord">Honda Accord</option>
+            <option value="civic">Honda Civic</option>
+            <option value="altima">Nissan Altima</option>
+            <option value="impala">Chevy Impala</option>
+        </select>
+
+        <br><br>
+
+        <textarea rows="15" cols="100">
+            Here is some default text
+        </textarea>
+
+        <br><br>
+
+        <button>Click here!</button><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br><br>
+</body>
+</html>
